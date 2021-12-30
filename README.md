@@ -8,7 +8,7 @@ We use the Kickstarter dataset to create a pivot table based on Theater category
 Compared to the successful Theater Campaigns, we can also see the number of failed campaigns is roughly 40 throughout the year. However, December had almost the same number of successful and failed campaigns launched.
 ### Analysis of Outcomes Based on Goals
 We use the percentage of successful, failed and cancel plays based on Funding Goal Amount to analyze our data. Using COUNTIFS function to help us optimize our findings. 
-![Outcomes_vs_Goals] 
+![Outcomes_vs_Goals](Outcomes_vs_Goals.png) 
 The resulting table shows that the percentage of outcomes based on different Funding Goal ranges. Where there is the Funding Goal is less than $4,999 has the highest successful rate. Also, there is 67% successful rate on the funding goal range of $35,000 to 44,999. As the Funding Goal sets higher, the outcome of failed is significant gets higher, for instance, 100% failed while the Funding Goal is between $45,000 to $49,999. This may mean that Louise should limit the higher funding goal on his campaigns. 
 ### Challenges and Dificulties Encountered
 When we filter the Kickstarter dataset based on YEARS, which is challenging. Because we need to apply to another function to extract unreadable data. Also, there is an error when I apply to Excel COUNTIF functions to sort the data for outcomes based on Goal’s range. It shows too many arguments in this function. Lately, I figure out the difference between COUNTIF and COUNTIFS function.
