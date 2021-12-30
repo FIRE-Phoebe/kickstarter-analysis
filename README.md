@@ -1,11 +1,13 @@
 # Kickstarter-Campaign analysis
 ## Overview of the Project
-### The purpose of this analysis is to help Louise to short amount of time to find out how the different campaign fared in related to the Theater Outcome by Launch Dates and the Outcomes based on Funding Goals. 
+
+### Purpose
+The purpose of this analysis is to help Louise to short amount of time to find out how the different campaign fared in related to the Theater Outcome by Launch Dates and the Outcomes based on Funding Goals. 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Dates
-We use the Kickstarter dataset to create a pivot table based on Theater category and graphing line chart to visualize campaign outcomes: successful, failed and canceled. The result shows that we have a greater number of successful on the Theater Outcomes from May to July. Especially on May, which is launched the most successful on Louise’s Kickstarter Campaigns. 
+We use the Kickstarter dataset to create a pivot table based on Theater category and graphing line chart to visualize campaign outcomes: successful, failed and canceled.  
 ![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
-Compared to the successful Theater Campaigns, we can also see the number of failed campaigns is roughly 40 throughout the year. However, December had almost the same number of successful and failed campaigns launched.
+The result shows that we have a greater number of successful on the Theater Outcomes from May to July. Especially on May, which is launched the most successful on Louise’s Kickstarter Campaigns.Compared to the successful Theater Campaigns, we can also see the number of failed campaigns is roughly 40 throughout the year. However, December had almost the same number of successful and failed campaigns launched.
 ### Analysis of Outcomes Based on Goals
 We use the percentage of successful, failed and cancel plays based on Funding Goal Amount to analyze our data. Using COUNTIFS function to help us optimize our findings. 
 ![Outcomes_vs_Goals](Outcomes_vs_Goals.png) 
