@@ -6,7 +6,7 @@ The purpose of this analysis is to help Louise to short amount of time to find o
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Dates
 We use the Kickstarter dataset to create a pivot table based on Theater category and graphing line chart to visualize campaign outcomes: successful, failed and canceled.  
-![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)<img src="Theater_Outcomes_vs_Launch.png" width="100" height="100">
+![Theater_Outcomes_vs_Launch]<img src="Theater_Outcomes_vs_Launch.png" width="300" height="200">
 The result shows that we have a greater number of successful on the Theater Outcomes from May to July. Especially on May, which is launched the most successful on Louise’s Kickstarter Campaigns.Compared to the successful Theater Campaigns, we can also see the number of failed campaigns is roughly 40 throughout the year. However, December had almost the same number of successful and failed campaigns launched.
 ### Analysis of Outcomes Based on Goals
 We use the percentage of successful, failed and cancel plays based on Funding Goal Amount to analyze our data. Using COUNTIFS function to help us optimize our findings. 
